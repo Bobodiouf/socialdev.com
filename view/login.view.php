@@ -11,7 +11,7 @@
                 <div class="col">
                     <div class="col-md-8">
                         <div class="p-4 shadow">
-                            <form>
+                            <form action="config/HTTP/login.php" method="POST">
                                 <div class="mb-3">
                                     <input type="email" class="form-control" placeholder="Adresse e-mail ou numéro de tél.">
                                 </div>
@@ -108,7 +108,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form class="row g-3">
+                <form action="config/HTTP/login.php" method="GET" class="row g-3">
                     <div class="col-md-6">
                         <input type="email" class="form-control" placeholder="Prénom">
                     </div>
