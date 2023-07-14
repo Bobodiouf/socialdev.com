@@ -16,7 +16,7 @@ function createDatabase(string $host, string $dbName, string $username, string $
 }
 
 
-function connectToDatabase(string $host, string $dbName, string $username, string $password): ?PDO
+function get_PDO(string $host, string $dbName, string $username, string $password): ?PDO
 {
     try {
         $dsn = "mysql:host=$host;dbname=$dbName";
