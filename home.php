@@ -1,7 +1,7 @@
 <?php require_once "config/header.php" ?>
 
 
-<nav class="navbar navbar-expand-lg sticky-top bg-body-light border-bottom border-secondary-subtle border-opacity-10">
+<nav class="navbar navbar-expand-lg sticky-top bg-body-light shadow-sm">
     <div class="container-fluid">
         <div class="row g-3 w-100">
             <div class="col-md-4 d-flex">
@@ -75,9 +75,9 @@
 
 
 <div class="main container-fluid">
-    <div class="row g-3">
-        <div class="col-md-4 sticky-top">
-            <div class="my-5">
+    <div class="row g-3 p-2">
+        <div class="col-md-4 navbar-nav me-auto my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100%">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -85,7 +85,7 @@
                     </a>
                 </div>
             </div>
-            <div class="my-5">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -93,7 +93,7 @@
                     </a>
                 </div>
             </div>
-            <div class="my-5">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -101,7 +101,7 @@
                     </a>
                 </div>
             </div>
-            <div class="my-5">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -109,7 +109,7 @@
                     </a>
                 </div>
             </div>
-            <div class="my-5">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -117,7 +117,7 @@
                     </a>
                 </div>
             </div>
-            <div class="my-5">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -125,7 +125,7 @@
                     </a>
                 </div>
             </div>
-            <div class="my-5">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -133,7 +133,7 @@
                     </a>
                 </div>
             </div>
-            <div class="my-5">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -141,7 +141,7 @@
                     </a>
                 </div>
             </div>
-            <div class="my-5">
+            <div class="my-3">
                 <div>
                     <a href="" class="d-flex text-decoration-none text-black">
                         <img src="" alt="photo">
@@ -150,31 +150,42 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4" style="height: 1000px;"></div>
         <div class="col-md-4">
-            <div>
+            <div class="container">
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+            </div>
+        </div>
+        <div class="col-md-4 navbar-nav me-auto my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100%;">
+            <div class="my-3">
                 <a href="#">
                     <h6>Sponsorisé</h6>
                     <article></article>
                 </a>
                 <hr>
                 <a href="#">
-                    <h6></h6>
+                    <h6>Vos Pages et profils</h6>
                     <article></article>
                 </a>
                 <hr>
                 <a href="#">
-                    <h6></h6>
+                    <h6>Invitations</h6>
                     <article></article>
                 </a>
                 <hr>
                 <a href="#">
-                    <h6></h6>
+                    <h6>Anniversaires</h6>
                     <article></article>
                 </a>
                 <hr>
                 <a href="#">
-                    <h6></h6>
+                    <h6>Contacts</h6>
+                    <article></article>
+                </a>
+                <hr>
+                <a href="#">
+                    <h6>Conversations de groupe</h6>
                     <article></article>
                 </a>
                 <hr>
