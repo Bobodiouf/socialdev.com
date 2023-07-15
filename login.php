@@ -10,6 +10,12 @@
                 </div>
                 <div class="col">
                     <div class="col-md-8">
+                        <?php if (isset($_GET["erreur"])) : ?>
+                            <div class="alert alert-danger" role="alert" style="font-size: .8rem;">
+                                <?php echo $_GET["erreur"]; ?>
+                            </div>
+                        <?php endif; ?>
+
                         <div class="p-4 shadow">
                             <form action="config/HTTP/login.php" method="POST">
                                 <div class="mb-3">
@@ -25,11 +31,6 @@
                                     <a href="" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Mot de passe oublié ?</a>
                                 </div>
                                 <hr class="text-secondary">
-                                <?php if (isset($erreur)) : ?>
-                                    <div class="alert alert-danger" role="alert">
-                                        <?php echo $erreur; ?>
-                                    </div>
-                                <?php endif; ?>
                             </form>
                             <div class="mx-5">
                                 <a href="" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#inscriptionModal">Créer un nouveau compte</a>
